@@ -120,7 +120,7 @@ body{
 
 main{
     background-color: var(--White);
-    max-width: 50vw;
+    max-width: 374px;
 
     padding: 1.5rem;
     margin: 5em 5em 1em;
