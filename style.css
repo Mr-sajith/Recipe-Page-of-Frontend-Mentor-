@@ -112,7 +112,6 @@ body{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
 
 
 
@@ -120,7 +119,7 @@ body{
 
 main{
     background-color: var(--White);
-    max-width: 374px;
+    max-width: 70vw;
 
     padding: 1.5rem;
     margin: 5em 5em 1em;
