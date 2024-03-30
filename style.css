@@ -16,6 +16,16 @@
 --Dark-Charcoal: hsl(24, 5%, 18%);
 }
 
+
+::marker{
+     color: var(--Nutmeg);
+}
+
+ol li::marker{
+      font-family: outfitbold;
+      font-size: small;
+}
+
 /* --------------------------------------------------------------------------------------------------- */
 
 
