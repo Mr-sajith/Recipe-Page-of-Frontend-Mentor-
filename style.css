@@ -1,0 +1,267 @@
+/* ---------------------pesodo elemets--------------------------- */
+
+
+:root{
+/* Colors Primary */
+--Nutmeg: hsl(14, 45%, 36%);
+--Dark-Raspberry: hsl(332, 51%, 32%);
+
+ /* Colors Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Rose-White: hsl(330, 100%, 98%);
+--Eggshell: hsl(30, 54%, 90%);
+--Light-Grey: hsl(30, 18%, 87%);
+--Wenge-Brown: hsl(30, 10%, 34%);
+--Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------------media qurrys -------------------- */
+
+@media (max-width: 640px){
+    #media-qurry{
+        max-width: 100vw;
+        padding: 0.5em 1.5em 1.5rem 1.5em;
+
+        margin: 0px 0px 0.5em 0px;
+        border-radius: 0px;
+        
+    }
+
+    #for-desktop{
+        display: none;
+    }
+    #for-mobile{
+        display: block;
+    }
+
+}
+
+/* -----font famlly----- */
+
+@font-face {
+    font-family: youngserif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: outfitvariable;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: outfitblack;
+    src: url(./assets/fonts/outfit/static/Outfit-Black.ttf);
+}
+@font-face {
+    font-family: outfitbold;
+    src: url(./assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+@font-face {
+    font-family: outfitextrabold;
+    src: url(./assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
+}
+@font-face {
+    font-family: outfitextralight;
+    src: url(./assets/fonts/outfit/static/Outfit-ExtraLight.ttf);
+}
+@font-face {
+    font-family: outfitlight;
+    src: url(./assets/fonts/outfit/static/Outfit-Light.ttf);
+}
+@font-face {
+    font-family: outfitmedium;
+    src: url(./assets/fonts/outfit/static/Outfit-Medium.ttf);
+}
+@font-face {
+    font-family: outfitreagular;
+    src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: outfitsemibold;
+    src: url(./assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+}
+@font-face {
+    font-family: outfitthin;
+    src: url(./assets/fonts/outfit/static/Outfit-Thin.ttf);
+}
+/* ------------------------- */
+
+
+/* ----------------------------------------------------- */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--Eggshell);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+main{
+    background-color: var(--White);
+    max-width: 50vw;
+
+    padding: 1.5rem;
+    margin: 5em 5em 1em;
+    border-radius: 1em;
+
+
+}
+
+.for-mobile{
+    display: none;
+}
+
+img{
+    width: 100%;
+    border-radius: 0.4em;
+}
+
+
+
+.Simple-Omelette-Recipe h1{
+    margin: 0.5em 0px ;
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: youngserif;
+}
+
+.Simple-Omelette-Recipe p{
+    font-size: small;
+    font-family: outfitvariable;
+}
+
+
+
+/* ---------------------------lists styls------------------------------------- */
+
+/* list label style */
+.list-titile{
+    font-family: youngserif;
+    color: var(--Nutmeg);
+}
+/* ----------------- */
+
+
+/* -----style of preparation time's list----- */
+.preparation-time{
+    padding: 1em 1.5em;
+    margin: 1em 0px;
+    background-color: var(--Rose-White);
+}
+
+.preparation-time label{
+    color: var(--Dark-Raspberry);
+    font-family: outfitbold;
+
+    font-size: 0.9em;
+}
+
+.preparation-time li{
+    font-family: outfitextralight;
+    font-size: x-small;
+
+    margin: 0.8em 0px;
+}
+
+.preparation-time li strong{
+    font-family: outfitbold;
+    color: var(--Wenge-Brown);
+}
+/* ---------------------------------------------- */
+
+
+/* -----style of ingredient's list-----  */
+
+.Ingredients{
+    padding-bottom: 0.8em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+.Ingredients li{
+
+    font-size: small;
+
+    font-family: outfitlight;
+    margin: 0.8em 0px 0.8em 2em ;
+
+    box-sizing: border-box;
+
+
+}
+/* ---------------------------------------- */
+
+
+/* -----style of instruction's list----- */
+
+.Instructions{
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--Light-Grey);
+
+}
+.Instructions li{
+    padding: 0.9em 0px 0.9em 0.5em;
+    margin: 0px 1.5em;
+    font-size: small;
+
+    font-family: outfitextralight;
+
+}
+
+.Instructions li strong{
+    font-family: outfitbold;
+    color: var(--Wenge-Brown);
+}
+/* ----------------------------------------- */
+
+
+
+/* -----style of nutrition's table----- */
+
+.nutrition p{
+    font-size: small;
+    font-family: outfitextralight;
+
+    margin: 1em 0px ;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    padding: 0.50em;
+}
+
+.table-row{
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+td{
+    font-family: outfitlight;
+    font-size: small;
+    font-weight: lighter;
+}
+
+tr .table-font-wight{
+    font-family: outfitbold;
+    color: var(--Nutmeg);
+    font-size: small;
+}
+/* ----------------------------------------- */
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
