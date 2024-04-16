@@ -16,15 +16,15 @@
 --Dark-Charcoal: hsl(24, 5%, 18%);
 }
 
-
 ::marker{
-     color: var(--Nutmeg);
+    color: var(--Nutmeg);
 }
 
 ol li::marker{
-      font-family: outfitbold;
-      font-size: small;
+    font-family: outfitbold;
+    font-size: small;
 }
+
 
 /* --------------------------------------------------------------------------------------------------- */
 
@@ -32,6 +32,10 @@ ol li::marker{
 /* ----------------------media qurrys -------------------- */
 
 @media (max-width: 640px){
+
+    #body{
+        padding: 0px;
+    }
     #media-qurry{
         max-width: 100vw;
         padding: 0.5em 1.5em 1.5rem 1.5em;
@@ -112,6 +116,9 @@ body{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
+
+    padding: 5.8rem 0px;
 
 
 
@@ -119,10 +126,10 @@ body{
 
 main{
     background-color: var(--White);
-    max-width: 70vw;
+    max-width: 45vw;
 
-    padding: 1.5rem;
-    margin: 5em 5em 1em;
+    padding: 2.3rem;
+    /* margin: 10em 5em 1em; */
     border-radius: 1em;
 
 
@@ -141,7 +148,7 @@ img{
 
 .Simple-Omelette-Recipe h1{
     margin: 0.5em 0px ;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: lighter;
     font-family: youngserif;
 }
@@ -159,6 +166,8 @@ img{
 .list-titile{
     font-family: youngserif;
     color: var(--Nutmeg);
+
+    font-size: x-large;
 }
 /* ----------------- */
 
@@ -174,12 +183,12 @@ img{
     color: var(--Dark-Raspberry);
     font-family: outfitbold;
 
-    font-size: 0.9em;
+    font-size: medium;
 }
 
 .preparation-time li{
     font-family: outfitextralight;
-    font-size: x-small;
+    font-size: small;
 
     margin: 0.8em 0px;
 }
@@ -269,6 +278,7 @@ tr .table-font-wight{
     font-family: outfitbold;
     color: var(--Nutmeg);
     font-size: small;
+    padding: 1em;
 }
 /* ----------------------------------------- */
 
